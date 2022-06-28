@@ -1,0 +1,26 @@
+{
+   "name": "product-preview-card-component",
+   "version": "1.0.0",
+   "description": "Frontend Mentor Challenge | Product preview card component",
+   "main": "src/index.html",
+   "scripts": {
+      "dev:css": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css --watch",
+      "build:css": "tailwindcss -i ./src/styles/input.css -o ./src/styles/output.css",
+      "format": "prettier --write */**"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Bayoumi-dev/Product-preview-card-component.git"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/Bayoumi-dev/Product-preview-card-component/issues"
+   },
+   "homepage": "https://github.com/Bayoumi-dev/Product-preview-card-component#readme",
+   "devDependencies": {
+      "prettier": "2.7.1",
+      "tailwindcss": "^3.1.4"
+   }
+}
