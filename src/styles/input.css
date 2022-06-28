@@ -1,0 +1,37 @@
+/* Google Font - Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+/* Google Font - Fraunces */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+   /* Animations */
+   .anim-zoomIn {
+      animation: zoomIn 1.4s forwards;
+   }
+   @keyframes zoomIn {
+      0% {
+         transform: scale(0.8);
+      }
+   }
+   .anim-fadeIn {
+      opacity: 0;
+      animation: fadeIn 1.2s ease-in-out forwards;
+   }
+   @keyframes fadeIn {
+      100% {
+         opacity: 1;
+      }
+   }
+   .slide-up {
+      animation: slideUp 1s;
+   }
+   @keyframes slideUp {
+      0% {
+         transform: translateY(50%);
+      }
+   }
+}
